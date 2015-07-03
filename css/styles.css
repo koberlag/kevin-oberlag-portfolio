@@ -1,0 +1,142 @@
+
+body {
+  /* Typography Declarations */
+  
+  color: #594F49;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+.content-footer {
+  background-color: #594F49;
+  margin-top: 2.5%;
+  padding: 4%;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.content-footer a {
+  color: #CCB5A7;
+  text-decoration: none;
+}
+
+.content-footer a:hover {
+  color: #FFE2D1;
+}
+
+.social > li {
+  list-style-type: none;
+  padding: 0 1%;
+  display: inline-block;
+}
+
+h2 {
+  color: #A52A2A;
+}
+
+.introduction-section,
+.location-section,
+.questions-section,
+.projects-section{
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2.5%;
+}
+
+.questions-section a {
+  text-decoration: none;
+  color: #594F49;
+  font-weight: bold;
+}
+
+.questions-section a:hover {
+  color: #CCB5A7;
+  font-weight: bold;
+}
+
+.masthead {
+  border-top: solid 1em #CCB5A7;
+  background-repeat: no-repeat;
+  padding: 10em 0;
+  background-image: url("https://download.unsplash.com/photo-1422310299561-e3b8b45d859f");
+  background-size: cover;
+  background-position: left center;
+  color: #CCB5A7;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography Declarations */
+  
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.top-navigation
+{
+  height:4rem;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.top-navigation .links li
+{
+  list-style-type: none;
+  display:inline-block;
+  padding-left: 1.25rem;
+}
+
+.top-navigation .links li :hover
+{
+  list-style-type: none;
+  display:inline-block;
+}
+
+.top-navigation .links a
+{
+  text-decoration: none;
+}
+
+.footer .icons
+{
+  list-style-type: none;
+}
+
+.projects-section img
+{
+max-width:100%;
+height:auto;"
+}
